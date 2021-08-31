@@ -1,5 +1,5 @@
 body{
-    background-color: #bce9e9;
+    background-color: #e1ebeb;
     background-repeat: no-repeat;
     background-position: center;
     background-size: 40%;
@@ -10,16 +10,17 @@ ul.ulnav{
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: rgb(5, 87, 141);
+    background-color: rgb(29, 167, 24);
+    text-align: center;
 }
 li.linav{
-    float:left;
+    display: inline-block;
 }
 li.linav a{
     display: block;
     color: #ffffff;
     text-align: center;
-    padding: 14px 16px;
+    padding: 8px 8px;
     text-decoration: none;
 }
 li.linav a.active{
@@ -31,4 +32,26 @@ li.linav a.active{
 }
 li.linav a:hover{
     background-color: #111;
+}
+span.subtitle{
+    font-size: 10pt;
+    color: #3f75a7;
+    font-family: verdana;
+}
+span.maintitle{
+    font-size: 20pt;
+    color: #3f75a7;
+    font-family: verdana;
+}
+a.nav{
+    font-size: 8pt;
+    color: #000000;
+    font-family: verdana;
+    text-decoration: none;
+}
+a.nav:hover{
+    font-size: 8pt;
+    color: #db8d10;
+    font-family: verdana;
+    text-decoration: none;
 }
